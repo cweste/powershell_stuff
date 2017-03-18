@@ -8,7 +8,7 @@ function Get-OpenFiles
             .DESCRIPTION
             This function will use openfiles.exe to get information about open files against a given Sever / PC.
             It will return an DataTable object with all openfiles or if the -filter property is used it will return an filter Dataview object.
-            You can also colse opem files if you use the terminate switch
+            You can also close open files if you use the terminate switch
             .EXAMPLE
             Get-OpenFiles -ComputerName fileserver1
             .EXAMPLE
@@ -20,9 +20,9 @@ function Get-OpenFiles
             .PARAMETER computername
             The computer name to query. Just one or multiple.
             .PARAMETER Filter
-            Here you can specify which poperty is interesting for your result.  
+            Here you can select which poperty is interesting for your result.  
             .PARAMETER query
-            This is your search query , you dont have to provide the exact search query the function will alwas use LIKE
+            This is your search query , you dont have to provide the exact search query the function will always use LIKE
             .PARAMETER terminate
             This parameter will trigger an close/discconect against the openfiles which are returned   
 
