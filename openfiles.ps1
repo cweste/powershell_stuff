@@ -10,7 +10,7 @@ function Get-OpenFiles
             It will return an DataTable object with all openfiles or if the -filter property is used it will return an filter Dataview object.
             You can also colse opem files if you use the terminate switch
             .EXAMPLE
-            Get-OpenFile -ComputerName fileserver1
+            Get-OpenFiles -ComputerName fileserver1
             .EXAMPLE
             Get-OpenFiles -computername fs2 -Filter Open_File -query \share\ 
             .EXAMPLE
